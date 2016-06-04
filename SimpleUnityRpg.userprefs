@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Character Classes\BaseMageClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Items\BaseWeapon.cs">
     <Files>
-      <File FileName="Assets\Scripts\Character Classes\BaseCharacterClass.cs" Line="16" Column="23" />
-      <File FileName="Assets\Scripts\Character Classes\BaseWarriorClass.cs" Line="17" Column="1" />
-      <File FileName="Assets\Scripts\Character Classes\BaseMageClass.cs" Line="15" Column="11" />
+      <File FileName="Assets\Scripts\Items\BaseItem.cs" Line="23" Column="1" />
+      <File FileName="Assets\Scripts\Items\BaseStatItem.cs" Line="16" Column="34" />
+      <File FileName="Assets\Scripts\Items\BaseWeapon.cs" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//inherits from base class for character creation
 public class BaseWarriorClass : BaseCharacterClass {
 
-	public void WarriorClass()
+	public BaseWarriorClass()
 	{
 		CharacterClassName = "Warrior";
 		CharacterClassDescription = "A strong and powerful hero, capable of wearing plate armor and weilding heavy weapons.";

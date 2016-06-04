@@ -48,6 +48,10 @@
      <Compile Include="Assets\Scripts\Character Classes\BaseCharacterClass.cs" />
      <Compile Include="Assets\Scripts\Character Classes\BaseMageClass.cs" />
      <Compile Include="Assets\Scripts\Character Classes\BaseWarriorClass.cs" />
+     <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
+     <Compile Include="Assets\Scripts\Items\BaseStatItem.cs" />
+     <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
+     <Compile Include="Assets\Scripts\TestGUI.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

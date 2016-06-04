@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BaseMageClass : BaseCharacterClass {
 
-	public void Mage()
+	public BaseMageClass()
 	{
 		CharacterClassName = "Mage";
 		CharacterClassDescription = "A hero with a affinity for magic, wears cloth armor.";
