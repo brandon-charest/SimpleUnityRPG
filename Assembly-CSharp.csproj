@@ -50,10 +50,13 @@
      <Compile Include="Assets\Scripts\Character Classes\BaseWarriorClass.cs" />
      <Compile Include="Assets\Scripts\Items\BaseEquipment.cs" />
      <Compile Include="Assets\Scripts\Items\BaseItem.cs" />
-     <Compile Include="Assets\Scripts\Items\BasePostion.cs" />
+     <Compile Include="Assets\Scripts\Items\BasePotion.cs" />
      <Compile Include="Assets\Scripts\Items\BaseScroll.cs" />
      <Compile Include="Assets\Scripts\Items\BaseStatItem.cs" />
      <Compile Include="Assets\Scripts\Items\BaseWeapon.cs" />
+     <Compile Include="Assets\Scripts\Items\CreateNewEquipment.cs" />
+     <Compile Include="Assets\Scripts\Items\CreateNewPotion.cs" />
+     <Compile Include="Assets\Scripts\Items\CreateNewScroll.cs" />
      <Compile Include="Assets\Scripts\Items\CreateNewWeapon.cs" />
      <Compile Include="Assets\Scripts\TestGUI.cs" />
  <Reference Include="UnityEngine.UI">
