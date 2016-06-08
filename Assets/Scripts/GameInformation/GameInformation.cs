@@ -7,7 +7,7 @@ public class GameInformation : MonoBehaviour {
 	void Awake()
 	{
 		//hold player information when scenes are changed
-		DontDestroyOnLoad(transform.gameObject);
+		DontDestroyOnLoad(gameObject);
 	}
 
 	//player information to hold

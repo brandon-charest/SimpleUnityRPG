@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using UnityEngine.SceneManagement;
 public class CreatePlayer : MonoBehaviour {
 
 	private BasePlayer newPlayer;
@@ -44,6 +45,7 @@ public class CreatePlayer : MonoBehaviour {
 			newPlayer.Endurance = newPlayer.PlayerClass.Endurance;
 			newPlayer.PlayerName = playerName;
 
+			StoreNewPlayerInformation();
 			//save player information after creation
 			SaveInformation.SaveAllInformation();
 
@@ -57,5 +59,24 @@ public class CreatePlayer : MonoBehaviour {
 				Debug.Log("Player Endurance: " + newPlayer.Endurance);
 				Debug.Log("Player Dexterity: " + newPlayer.Dexterity);
 		}
+
+		if(GUILayout.Button("Load"))
+		{
+			Debug.Log("Load pressed");
+
+			SceneManager.LoadScene("tset");
+		}
+	}
+	//gathers all player information and stores it waiting for information to be saved
+	//from SaveAllInformation()
+	private void StoreNewPlayerInformation()
+	{
+		GameInformation.PlayerName = newPlayer.PlayerName;
+		GameInformation.PlayerLevel = newPlayer.PlayerLevel;	
+		GameInformation.Stamina = newPlayer.Stamina;
+		GameInformation.Strength = newPlayer.Strength;
+		GameInformation.Intellect = newPlayer.Intellect;
+		GameInformation.Endurance = newPlayer.Endurance;
+		GameInformation.Dexterity = newPlayer.Dexterity;
 	}
 }
