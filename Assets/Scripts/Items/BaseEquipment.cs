@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[System.Serializable] //tells compiler that this class is serializable
 public class BaseEquipment : BaseStatItem{
 
 	public enum EquipmentTypes

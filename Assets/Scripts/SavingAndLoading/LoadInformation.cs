@@ -12,5 +12,10 @@ public class LoadInformation {
 		GameInformation.Intellect = PlayerPrefs.GetInt("INTELLECT");
 		GameInformation.Endurance = PlayerPrefs.GetInt("ENDURANCE");
 		GameInformation.Dexterity = PlayerPrefs.GetInt("DEXTERITY");
+
+		if(PlayerPrefs.GetString("EQUIPMENTITEM1") != null)
+		{
+			GameInformation.EquipmentOne = (BaseEquipment)PlayerPrefSerialization.Load("EQUIPMENTITEM1");
+		}
 	}
 }

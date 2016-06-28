@@ -10,6 +10,8 @@ public class GameInformation : MonoBehaviour {
 		DontDestroyOnLoad(gameObject);
 	}
 
+	public static BaseEquipment EquipmentOne { get; set; }
+
 	//player information to hold
 	public static string PlayerName { get; set; }
 	public static int PlayerLevel { get; set; }

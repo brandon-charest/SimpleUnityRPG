@@ -13,6 +13,11 @@ public class SaveInformation  {
 		PlayerPrefs.SetInt("INTELLECT", GameInformation.Intellect);
 		PlayerPrefs.SetInt("ENDURANCE", GameInformation.Endurance);
 		PlayerPrefs.SetInt("DEXTERITY", GameInformation.Dexterity);
+
+		if(GameInformation.EquipmentOne != null)
+		{
+			PlayerPrefSerialization.Save("EQUIPMENTITEM1", GameInformation.EquipmentOne);
+		}
 		//for testing
 		Debug.Log("SAVED ALL PLAYER INFORMATION");
 	}
