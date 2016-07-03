@@ -7,6 +7,8 @@ public class BasePlayer{
 	private int playerLevel;
 	private BaseCharacterClass playerClass;
 	private int stamina, endurence, strength, intellect, dexterity;
+    private int currentExperience;
+    private int requiredExperience;
 
 	public string PlayerName { get; set; }
 	public int PlayerLevel { get; set; }
@@ -16,5 +18,6 @@ public class BasePlayer{
 	public int Strength { get; set;}
 	public int Intellect { get; set;}
 	public int Dexterity { get; set;}
-
+    public int CurrentExperience { get; set; }
+    public int RequiredExperience { get; set; }
 }

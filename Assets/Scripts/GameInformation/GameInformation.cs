@@ -21,4 +21,6 @@ public class GameInformation : MonoBehaviour {
 	public static int Strength { get; set; }
 	public static int Intellect { get; set; }
 	public static int Dexterity { get; set; }
+    public static int CurrentExperience { get; set; }
+    public static int RequiredExperience { get; set; }
 }
