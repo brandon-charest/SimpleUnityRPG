@@ -31,7 +31,7 @@ public class CameraMovement : MonoBehaviour {
     }
 
 
-    void Update()
+    void LateUpdate()
     {
         if (!target) return;
 
